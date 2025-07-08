@@ -8,6 +8,9 @@
     "wdth" 100;
 }
 /* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -24,12 +27,28 @@
     border: none;
 
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.section{
+    margin-top: 130px;
+}
+.text-center{
+    text-align: center;
+}
 
 /* header */
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    
 }
 /* Nab styles */
 nav{
@@ -42,6 +61,7 @@ nav{
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+    
 }
 nav ul{
     display: flex;
@@ -61,20 +81,79 @@ nav li a{
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 0 230px;
+    margin: 0 35px 0 150px;
 }
 .banner-content{
-    max-width: 580px;
+    max-width: 500px;
+    height: 356px ;
+    margin-top: 100px;
 }
 .banner-greettings{
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 .banner-title{
     font-weight: bold;
     font-size: 65px;
+    margin-top: 0px;
 }
 .banner-profile-pic{
     width: 584px;
     height: 676px;
+}
+.banner-description{
+    color: #757575;
+}
+.btn-contact{
+    background-color: white;
+    font-weight: bold;
+    color: #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+    margin-left: 15px;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about-content{
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+}
+.item-description{
+    font-weight: bold;
+    font-size: 18px;
+}
+/* skills styles */
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 34px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    /* width: 267px;
+    height: 377px; */
+}
+.skill-padding{
+    padding: 0 100px;
 }

@@ -17,6 +17,9 @@
 .dark-2{
     color: #474747;
 }
+.dark-3{
+    color: #757575;
+}
 .btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -25,6 +28,7 @@
     border-radius: 5px;
     font-size: 20px;
     border: none;
+    cursor: pointer;
 
 }
 .section-title{
@@ -154,6 +158,22 @@ main section{
     /* width: 267px;
     height: 377px; */
 }
+.skill:hover{
+    background-color: antiquewhite;
+}
 .skill-padding{
     padding: 0 100px;
+}
+/* resume sections styles */
+.resume-container{
+    display: flex;
+    gap: 27px;
+}
+.resume-column-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.btn-resume{
+    margin-top: 50px;
+    cursor: pointer;
 }
